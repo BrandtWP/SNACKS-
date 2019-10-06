@@ -10,7 +10,7 @@ client.on('message', msg => {
     msg.reply('SNACKS!!!! these bitches use to be bussin! They use to think i was plain hide n seek but i was really in the bushes eatin dese mfs')
   }
   if (msg.content === 'walter') {
-    msg.send('i like fire trucks and moster trucks')
+    msg.reply('i like fire trucks and moster trucks')
 	msg.reply('walter')
   }
 })
