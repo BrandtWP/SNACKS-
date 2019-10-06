@@ -7,11 +7,11 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'snacks') {
-    msg('SNACKS!!!! these bitches use to be bussin! They use to think i was plain hide n seek but i was really in the bushes eatin dese mfs');
+    msg.reply('SNACKS!!!! these bitches use to be bussin! They use to think i was plain hide n seek but i was really in the bushes eatin dese mfs')
   }
   if (msg.content === 'walter') {
-    msg('i like fire trucks and moster trucks');
-	msg('walter');
+    msg.send('i like fire trucks and moster trucks')
+	msg.reply('walter')
   }
 })
 
