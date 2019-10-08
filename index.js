@@ -19,7 +19,7 @@ const rand_doge = [
 ]
 
 client.on('message', message => {
-	if (message.content.includes("snacks")) {
+	if (message.content.toLowerCase().includes("snacks")) {
 		message.channel.send('*SNACKS!!!! these bitches use to be bussin! They use to think i was plain hide n seek but i was really in the bushes eatin dese mfs*');
 	}
 	if (message.content === 'walter') {
